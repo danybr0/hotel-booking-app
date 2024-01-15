@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_393895_hotel_b_0.admin" name="x_393895_hotel_b_0.admin">13dadab847b3b910a6b486c8436d4355</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 13:24:03</sys_created_on>
+        <sys_id>dbdadab847b3b910a6b486c8436d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13dadab847b3b910a6b486c8436d4355</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_dbdadab847b3b910a6b486c8436d4356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 13:24:03</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
