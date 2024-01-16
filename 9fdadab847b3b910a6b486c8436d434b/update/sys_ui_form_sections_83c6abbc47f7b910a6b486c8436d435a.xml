@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="83c6abbc47f7b910a6b486c8436d435a" sys_domain="global" table="x_393895_hotel_b_0_hotel_booking" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 18:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bc6abbc47f7b910a6b486c8436d435d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393895_hotel_b_0_hotel_booking" name="x_393895_hotel_b_0_hotel_booking" sys_domain="global" view="Default view">83c6abbc47f7b910a6b486c8436d435a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_hotel_b_0_hotel_booking" sys_domain="global" view="Default view">29d6a23847f3b910a6b486c8436d43b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 18:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 18:57:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce27a3fc47f7b910a6b486c8436d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393895_hotel_b_0_hotel_booking" name="x_393895_hotel_b_0_hotel_booking" sys_domain="global" view="Default view">83c6abbc47f7b910a6b486c8436d435a</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_393895_hotel_b_0_hotel_booking" sys_domain="global" view="Default view">0e27a3fc47f7b910a6b486c8436d4302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 18:57:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_393895_hotel_b_0_hotel_booking</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 18:55:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83c6abbc47f7b910a6b486c8436d435a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_393895_hotel_b_0_hotel_booking</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_83c6abbc47f7b910a6b486c8436d435a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 18:55:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

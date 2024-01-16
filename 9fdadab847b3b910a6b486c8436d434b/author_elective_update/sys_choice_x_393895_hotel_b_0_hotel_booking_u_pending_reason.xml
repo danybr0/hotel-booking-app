@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_pending_reason" table="x_393895_hotel_b_0_hotel_booking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_pending_reason</element>
+            <name>x_393895_hotel_b_0_hotel_booking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-16 15:37:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_pending_reason</sys_name>
+            <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+            <sys_update_name>sys_choice_x_393895_hotel_b_0_hotel_booking_u_pending_reason</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-16 15:37:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pending_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Eligible</label>
+            <language>en</language>
+            <name>x_393895_hotel_b_0_hotel_booking</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-16 15:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-16 15:37:23</sys_updated_on>
+            <value>not_eligible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pending_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hotel is not available</label>
+            <language>en</language>
+            <name>x_393895_hotel_b_0_hotel_booking</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-16 15:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-16 15:37:23</sys_updated_on>
+            <value>hotel_is_not_available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pending_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Document Pending</label>
+            <language>en</language>
+            <name>x_393895_hotel_b_0_hotel_booking</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-16 15:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-16 15:37:23</sys_updated_on>
+            <value>document_pending</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="70d6a23847f3b910a6b486c8436d43bd" label="Hotel Booking" max_length="40" name="x_393895_hotel_b_0_hotel_booking" type="collection">
+        <element choice="2" label="Booking Reason" max_length="40" name="booking_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Client Meeting" sequence="0" value="client_meeting"/>
+                <element inactive_on_update="false" label="Client Visiting" sequence="1" value="client_visiting"/>
+                <element inactive_on_update="false" label="Sprint Release" sequence="2" value="sprint_release"/>
+                <element inactive_on_update="false" label="Knowledge Transfer" sequence="3" value="knowledge_transfer"/>
+                <element inactive_on_update="false" label="Board Meeting" sequence="4" value="board_meeting"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="400" name="notes" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Additional Comments (Customer Visible)" max_length="40" name="u_additional_comments_customer_visible" type="journal_input"/>
+        <element dependent="u_assignment_group" dependent_on_field="u_assignment_group" label="Assigned To" max_length="32" name="u_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" default="1" label="Booking State" max_length="40" name="u_booking_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Booking" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Booking Pending" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Already Booked" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Not Eligible" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Booking Closed" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Booking Cancelled" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="Check-In Date and Time" max_length="255" name="u_check_in_date_and_time" type="glide_date_time"/>
+        <element label="Check-Out Date and Time" max_length="40" name="u_check_out_date_and_time" type="glide_date_time"/>
+        <element choice="1" label="Contac Type" max_length="40" name="u_contac_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Self-Service" sequence="0" value="Self-Service"/>
+                <element inactive_on_update="false" label="Email" sequence="1" value="Email"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="2" value="Mobile Phone"/>
+                <element inactive_on_update="false" label="Walk-In" sequence="3" value="Walk-In"/>
+            </choice>
+        </element>
+        <element label="Employee Department" max_length="32" name="u_employee_department" reference="cmn_department" type="reference"/>
+        <element choice="1" label="Employee Title" max_length="40" name="u_employee_title" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Board Director" sequence="0" value="board_director"/>
+                <element inactive_on_update="false" label="Board Member" sequence="1" value="board_member"/>
+                <element inactive_on_update="false" label="Junior Developer" sequence="2" value="junior_developer"/>
+                <element inactive_on_update="false" label="Senior Developer" sequence="3" value="senior_developer"/>
+                <element inactive_on_update="false" label="Team Lead" sequence="4" value="team_lead"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="5" value="project_manager"/>
+                <element inactive_on_update="false" label="HR Manager" sequence="6" value="hr_manager"/>
+            </choice>
+        </element>
+        <element label="Hotel Booking For" max_length="32" name="u_hotel_booking_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="Hotel Category" max_length="40" name="u_hotel_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Star" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Star" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Star" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - Star" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5 - Star" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="More info about your booking" max_length="400" name="u_more_info_about_your_booking" type="string"/>
+        <element choice="1" label="Pending Reason" max_length="40" name="u_pending_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Eligible" sequence="0" value="not_eligible"/>
+                <element inactive_on_update="false" label="Hotel is not available" sequence="1" value="hotel_is_not_available"/>
+                <element inactive_on_update="false" label="Document Pending" sequence="2" value="document_pending"/>
+            </choice>
+        </element>
+        <element label="Watch List" max_length="1024" name="u_watch_list" reference="sys_user" type="glide_list"/>
+        <element label="Work Notes List" max_length="1024" name="u_work_notes_list" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="u_employee_department"/>
+        </index>
+        <index name="index4">
+            <element name="u_hotel_booking_for"/>
+        </index>
+    </element>
+</database>
