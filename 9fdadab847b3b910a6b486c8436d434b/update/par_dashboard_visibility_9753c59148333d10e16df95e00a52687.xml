@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Hotel Booking">db53c591c8333d10c51ebd59fe62e388</dashboard>
+        <experience display_value="Hotel Booking">9f53c5910c333d104e16a6032ee5288f</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 20:18:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9753c59148333d10e16df95e00a52687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>par_dashboard_visibility_9753c59148333d10e16df95e00a52687</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 20:18:43</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

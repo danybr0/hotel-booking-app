@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Hotel Booking">9f53c5910c333d104e16a6032ee5288f</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 20:18:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>1f53c59138333d10ec7976db33f3157e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_ux_page_property_1f53c59138333d10ec7976db33f3157e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 20:18:44</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_393895_hotel_b_0.9f53c5910c333d104e16a6032ee5288f.root.globalSearchDataConfigId</unique_name>
+        <value>9b53c59158333d10817cc066f9226886</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f53c59138333d10ec7976db33f3157e"/>
+</record_update>

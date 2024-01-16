@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_393895_hotel_b_0.Audience for app hb</api_name>
+        <description/>
+        <name>Audience for app hb</name>
+        <role_names/>
+        <roles>13dadab847b3b910a6b486c8436d4355,97dadab847b3b910a6b486c8436d4359</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 20:18:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5863099147333d10a6b486c8436d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app hb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_ux_applicability_5863099147333d10a6b486c8436d437c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 20:18:47</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
