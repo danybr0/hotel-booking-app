@@ -46,6 +46,9 @@
                 <element inactive_on_update="false" label="HR Manager" sequence="6" value="hr_manager"/>
             </choice>
         </element>
+        <element choice="1" choice_field="title" choice_table="sys_user" label="Employee Title" max_length="32" name="u_employee_title2" reference_qual="titleSTARTSWITH^EQ" reference_qual_condition="titleSTARTSWITH^EQ" type="string">
+            <choice/>
+        </element>
         <element label="Hotel Booking For" max_length="32" name="u_hotel_booking_for" reference="sys_user" type="reference"/>
         <element choice="1" label="Hotel Category" max_length="40" name="u_hotel_category" type="choice">
             <choice>
@@ -76,6 +79,9 @@
             <element name="u_employee_department"/>
         </index>
         <index name="index4">
+            <element name="u_employee_title2"/>
+        </index>
+        <index name="index5">
             <element name="u_hotel_booking_for"/>
         </index>
     </element>
