@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="16128f1347b33110a6b486c8436d433d" extends="dl_matcher" label="Hotel Lookkup Definition" max_length="40" name="x_393895_hotel_b_0_dl_u_hotellookup" type="collection">
+        <element label="Employee Department" max_length="32" name="u_employee_department" reference="cmn_department" type="reference"/>
+        <element choice="1" choice_field="title" choice_table="sys_user" label="Employee Title" max_length="40" name="u_employee_title" type="string">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_hotel_category" choice_table="x_393895_hotel_b_0_hotel_booking" label="Hotel Category" max_length="40" name="u_hotel_category" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_employee_department"/>
+        </index>
+    </element>
+</database>

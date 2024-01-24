@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_393895_hotel_b_0_dl_u_hotellookup</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 10:40:20</sys_created_on>
+        <sys_id>5f12cf1347b33110a6b486c8436d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393895_hotel_b_0_dl_u_hotellookup</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_security_acl_5f12cf1347b33110a6b486c8436d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 10:40:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

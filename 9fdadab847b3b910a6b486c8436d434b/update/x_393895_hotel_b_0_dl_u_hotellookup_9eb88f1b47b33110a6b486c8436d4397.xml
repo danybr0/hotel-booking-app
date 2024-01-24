@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_393895_hotel_b_0_dl_u_hotellookup">
+    <x_393895_hotel_b_0_dl_u_hotellookup action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>200</order>
+        <sys_class_name>x_393895_hotel_b_0_dl_u_hotellookup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 11:10:03</sys_created_on>
+        <sys_id>9eb88f1b47b33110a6b486c8436d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>200</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>x_393895_hotel_b_0_dl_u_hotellookup_9eb88f1b47b33110a6b486c8436d4397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 11:10:03</sys_updated_on>
+        <u_employee_department display_value="Finance">a581ab703710200044e0bfc8bcbe5de8</u_employee_department>
+        <u_employee_title>Chief Financial Officer</u_employee_title>
+        <u_hotel_category>4</u_hotel_category>
+    </x_393895_hotel_b_0_dl_u_hotellookup>
+</record_update>
