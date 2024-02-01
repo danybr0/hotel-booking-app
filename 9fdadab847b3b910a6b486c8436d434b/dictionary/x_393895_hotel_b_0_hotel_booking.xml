@@ -50,7 +50,7 @@
             <choice/>
         </element>
         <element label="Hotel Booking For" max_length="32" name="u_hotel_booking_for" reference="sys_user" type="reference"/>
-        <element choice="1" label="Hotel Category" max_length="40" name="u_hotel_category" type="choice">
+        <element choice="1" label="Hotel Category" max_length="40" name="u_hotel_category" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1 - Star" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2 - Star" sequence="1" value="2"/>

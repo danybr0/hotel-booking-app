@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_393895_hotel_b_0.hotel.cat.review</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>hotel.cat.review</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 12:45:42</sys_created_on>
+        <sys_id>c7e4b95247004e10a6b486c8436d43ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_393895_hotel_b_0.hotel.cat.review</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sysevent_register_c7e4b95247004e10a6b486c8436d43ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 13:29:40</sys_updated_on>
+        <table>x_393895_hotel_b_0_hotel_booking</table>
+    </sysevent_register>
+</record_update>
