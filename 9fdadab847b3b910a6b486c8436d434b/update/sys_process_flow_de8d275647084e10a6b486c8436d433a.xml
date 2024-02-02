@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_393895_hotel_b_0_hotel_booking">u_booking_state=5^EQ<item display_value="Booking Closed" endquery="false" field="u_booking_state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Booking Closed</label>
+        <name>Booking Closed</name>
+        <order>500</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 21:31:50</sys_created_on>
+        <sys_id>de8d275647084e10a6b486c8436d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Closed</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_process_flow_de8d275647084e10a6b486c8436d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 21:31:50</sys_updated_on>
+        <table>x_393895_hotel_b_0_hotel_booking</table>
+    </sys_process_flow>
+</record_update>

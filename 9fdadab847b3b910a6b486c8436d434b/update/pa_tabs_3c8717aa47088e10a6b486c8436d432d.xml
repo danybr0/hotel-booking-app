@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Booking Overview - New Tab">708717aa47088e10a6b486c8436d432b</canvas_page>
+        <name>Booking Overview - New Tab</name>
+        <page display_value="PA Booking Overview - New Tab">7c8717aa47088e10a6b486c8436d4329</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 14:34:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c8717aa47088e10a6b486c8436d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Overview - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>pa_tabs_3c8717aa47088e10a6b486c8436d432d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 14:34:05</sys_updated_on>
+    </pa_tabs>
+</record_update>

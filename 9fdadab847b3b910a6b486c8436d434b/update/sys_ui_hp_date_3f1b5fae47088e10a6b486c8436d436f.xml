@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_date">
+    <sys_ui_hp_date action="INSERT_OR_UPDATE">
+        <date_field>u_check_in_date_and_time</date_field>
+        <date_table>x_393895_hotel_b_0_hotel_booking</date_table>
+        <publisher_reference display_value="Booked Today">15b9936e47088e10a6b486c8436d43fa</publisher_reference>
+        <sys_class_name>sys_ui_hp_date</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 14:50:18</sys_created_on>
+        <sys_id>3f1b5fae47088e10a6b486c8436d436f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>15b9936e47088e10a6b486c8436d43fa</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_ui_hp_date_3f1b5fae47088e10a6b486c8436d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:49:44</sys_updated_on>
+    </sys_ui_hp_date>
+</record_update>

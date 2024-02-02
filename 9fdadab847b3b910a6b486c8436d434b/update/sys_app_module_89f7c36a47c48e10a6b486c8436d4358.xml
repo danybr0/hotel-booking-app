@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="Hotel Booking">85e5eb5e47c44e10a6b486c8436d43f0</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>REPORT</link_type>
+        <map_page/>
+        <mobile_title>Status </mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>80</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report display_value="Booking Status Report">7ce70f6647c48e10a6b486c8436d43ba</report>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 13:27:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89f7c36a47c48e10a6b486c8436d4358</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Status Report</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_app_module_89f7c36a47c48e10a6b486c8436d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:59:22</sys_updated_on>
+        <timeline_page/>
+        <title>Status Report</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

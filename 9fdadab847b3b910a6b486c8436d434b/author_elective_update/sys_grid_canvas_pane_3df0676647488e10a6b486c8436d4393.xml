@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Booking Overview - New Tab">708717aa47088e10a6b486c8436d432b</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2024-02-02 07:15:23">f9f0a3ae47088e10a6b486c8436d435f</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:15:23</sys_created_on>
+        <sys_id>3df0676647488e10a6b486c8436d4393</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>708717aa47088e10a6b486c8436d432b</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_3df0676647488e10a6b486c8436d4393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:51:50</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</application>
+        <file_path/>
+        <instance_id>bca31ca0dbf8d4d85749cac5059619ac</instance_id>
+        <instance_name>dev103152</instance_name>
+        <name>sys_grid_canvas_pane_3df0676647488e10a6b486c8436d4393</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Booking Overview - New Tab">708717aa47088e10a6b486c8436d432b</grid_canvas><height>10</height><portal_widget display_value="Created 2024-02-02 07:15:23">f9f0a3ae47088e10a6b486c8436d435f</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-02 15:15:23</sys_created_on><sys_id>3df0676647488e10a6b486c8436d4393</sys_id><sys_mod_count>2</sys_mod_count><sys_name>708717aa47088e10a6b486c8436d432b</sys_name><sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package><sys_policy/><sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope><sys_update_name>sys_grid_canvas_pane_3df0676647488e10a6b486c8436d4393</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-02 15:51:50</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>801013579</payload_hash>
+        <record_name>708717aa47088e10a6b486c8436d432b</record_name>
+        <reverted_from/>
+        <source>a583e63447f3b910a6b486c8436d439f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:51:50</sys_created_on>
+        <sys_id>37492f6e47488e10a6b486c8436d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d6a84e31d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:51:50</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>fb492f6e47488e1035f8f9cdde31ebb7</update_guid>
+        <update_guid_history>fb492f6e47488e1035f8f9cdde31ebb7:801013579,02396f2e3a488e109e5040e937f752e9:735653328,75f0676687488e10aa655ac5a1b21795:801013579</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:53:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>633691b2fb51488081b705a004d11000</sys_id>
+        <sys_metadata>3df0676647488e10a6b486c8436d4393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>708717aa47088e10a6b486c8436d432b</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_scope_delete display_value="">3f2bdb32aaba4fb8aa6ff69cca48ae90</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_3df0676647488e10a6b486c8436d4393</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_3df0676647488e10a6b486c8436d4393">37492f6e47488e10a6b486c8436d43b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:53:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

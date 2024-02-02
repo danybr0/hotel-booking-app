@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_393895_hotel_b_0_hotel_booking">u_booking_state=3^EQ<item display_value="Already Booked" endquery="false" field="u_booking_state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Already Booked</label>
+        <name>Already Booked</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 21:25:46</sys_created_on>
+        <sys_id>b00ce71247084e10a6b486c8436d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Already Booked</sys_name>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_process_flow_b00ce71247084e10a6b486c8436d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 21:25:46</sys_updated_on>
+        <table>x_393895_hotel_b_0_hotel_booking</table>
+    </sys_process_flow>
+</record_update>
