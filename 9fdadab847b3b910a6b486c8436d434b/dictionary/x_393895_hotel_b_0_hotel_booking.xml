@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="70d6a23847f3b910a6b486c8436d43bd" label="Hotel Booking" max_length="40" name="x_393895_hotel_b_0_hotel_booking" type="collection">
-        <element choice="2" label="Booking Reason" max_length="40" name="booking_reason" type="choice">
+        <element choice="2" label="Booking Reason" mandatory="true" max_length="40" name="booking_reason" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Client Meeting" sequence="0" value="client_meeting"/>
                 <element inactive_on_update="false" label="Client Visiting" sequence="1" value="client_visiting"/>
@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="400" name="notes" type="journal_input"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Additional Comments (Customer Visible)" max_length="40" name="u_additional_comments_customer_visible" type="journal_input"/>
         <element dependent="u_assignment_group" dependent_on_field="u_assignment_group" label="Assigned To" max_length="32" name="u_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
@@ -47,9 +47,22 @@
             </choice>
         </element>
         <element choice="1" choice_field="title" choice_table="sys_user" label="Employee Title" max_length="32" name="u_employee_title2" reference_qual="titleSTARTSWITH^EQ" reference_qual_condition="titleSTARTSWITH^EQ" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Administrative Assistant" sequence="0" value="Administrative Assistant"/>
+                <element inactive_on_update="false" label="Chief Executive Officer" sequence="1" value="Chief Executive Officer"/>
+                <element inactive_on_update="false" label="Chief Financial Officer" sequence="2" value="Chief Financial Officer"/>
+                <element inactive_on_update="false" label="Chief Technology Officer" sequence="3" value="Chief Technology Officer"/>
+                <element inactive_on_update="false" label="Director" sequence="4" value="Director"/>
+                <element inactive_on_update="false" label="IT Technician" sequence="5" value="IT Technician"/>
+                <element inactive_on_update="false" label="Junior Developer" sequence="6" value="Junior Developer"/>
+                <element inactive_on_update="false" label="Sales Executive" sequence="7" value="Sales Executive"/>
+                <element inactive_on_update="false" label="Senior Developer" sequence="8" value="Senior Developer"/>
+                <element inactive_on_update="false" label="Solution Consultant" sequence="9" value="Solution Consultant"/>
+                <element inactive_on_update="false" label="System Administrator" sequence="10" value="System Administrator"/>
+                <element inactive_on_update="false" label="Vice President" sequence="11" value="Vice President"/>
+            </choice>
         </element>
-        <element label="Hotel Booking For" max_length="32" name="u_hotel_booking_for" reference="sys_user" type="reference"/>
+        <element label="Hotel Booking For" mandatory="true" max_length="32" name="u_hotel_booking_for" reference="sys_user" type="reference"/>
         <element choice="1" label="Hotel Category" max_length="40" name="u_hotel_category" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1 - Star" sequence="0" value="1"/>

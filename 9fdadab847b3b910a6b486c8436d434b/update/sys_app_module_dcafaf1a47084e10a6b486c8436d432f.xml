@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Hotel Booking">85e5eb5e47c44e10a6b486c8436d43f0</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_393895_hotel_b_0_hotel_booking">u_assigned_to=javascript:gs.user_id()^EQ<item endquery="false" field="u_assigned_to" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.user_id()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Assigned to</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_393895_hotel_b_0_hotel_booking</name>
+        <order>20</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query>u_assigned_to=javascript:gs.user_id()</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 21:47:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcafaf1a47084e10a6b486c8436d432f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Assigned To Me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel Booking" source="x_393895_hotel_b_0">9fdadab847b3b910a6b486c8436d434b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Booking">9fdadab847b3b910a6b486c8436d434b</sys_scope>
+        <sys_update_name>sys_app_module_dcafaf1a47084e10a6b486c8436d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 22:08:03</sys_updated_on>
+        <timeline_page/>
+        <title>Assigned To Me</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
