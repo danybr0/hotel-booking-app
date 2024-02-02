@@ -1,2 +1,2 @@
-# hotel-booking-app
-Hotel booking request app
+# Hotel Booking App
+Hotel booking request app built with ServiceNow
